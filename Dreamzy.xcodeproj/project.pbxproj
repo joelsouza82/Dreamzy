@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E3EA0F029AA4E2800596C23 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E3EA0EF29AA4E2700596C23 /* SplashView.swift */; };
 		0E9898B929AA3A55007CE6C5 /* DreamzyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E9898B829AA3A55007CE6C5 /* DreamzyApp.swift */; };
 		0E9898BB29AA3A55007CE6C5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E9898BA29AA3A55007CE6C5 /* ContentView.swift */; };
 		0E9898BD29AA3A57007CE6C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E9898BC29AA3A57007CE6C5 /* Assets.xcassets */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0E3EA0EF29AA4E2700596C23 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
 		0E9898B529AA3A55007CE6C5 /* Dreamzy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dreamzy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E9898B829AA3A55007CE6C5 /* DreamzyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DreamzyApp.swift; sourceTree = "<group>"; };
 		0E9898BA29AA3A55007CE6C5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -71,6 +73,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0E3EA0F129AA528F00596C23 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		0E9898AC29AA3A55007CE6C5 = {
 			isa = PBXGroup;
 			children = (
@@ -94,10 +103,12 @@
 		0E9898B729AA3A55007CE6C5 /* Dreamzy */ = {
 			isa = PBXGroup;
 			children = (
+				0E3EA0F129AA528F00596C23 /* View */,
 				0E9898B829AA3A55007CE6C5 /* DreamzyApp.swift */,
 				0E9898BA29AA3A55007CE6C5 /* ContentView.swift */,
 				0E9898BC29AA3A57007CE6C5 /* Assets.xcassets */,
 				0E9898BE29AA3A57007CE6C5 /* Preview Content */,
+				0E3EA0EF29AA4E2700596C23 /* SplashView.swift */,
 			);
 			path = Dreamzy;
 			sourceTree = "<group>";
@@ -259,6 +270,7 @@
 			files = (
 				0E9898BB29AA3A55007CE6C5 /* ContentView.swift in Sources */,
 				0E9898B929AA3A55007CE6C5 /* DreamzyApp.swift in Sources */,
+				0E3EA0F029AA4E2800596C23 /* SplashView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
