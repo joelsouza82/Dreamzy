@@ -76,8 +76,17 @@
 		0E3EA0F129AA528F00596C23 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				0E3EA0F229AA794F00596C23 /* SplashView */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		0E3EA0F229AA794F00596C23 /* SplashView */ = {
+			isa = PBXGroup;
+			children = (
+				0E3EA0EF29AA4E2700596C23 /* SplashView.swift */,
+			);
+			path = SplashView;
 			sourceTree = "<group>";
 		};
 		0E9898AC29AA3A55007CE6C5 = {
@@ -108,7 +117,6 @@
 				0E9898BA29AA3A55007CE6C5 /* ContentView.swift */,
 				0E9898BC29AA3A57007CE6C5 /* Assets.xcassets */,
 				0E9898BE29AA3A57007CE6C5 /* Preview Content */,
-				0E3EA0EF29AA4E2700596C23 /* SplashView.swift */,
 			);
 			path = Dreamzy;
 			sourceTree = "<group>";
