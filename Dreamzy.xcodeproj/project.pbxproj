@@ -8,8 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		0E3EA0F029AA4E2800596C23 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E3EA0EF29AA4E2700596C23 /* SplashView.swift */; };
+		0E4A5B5E29AAAC4A001B9DA3 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E4A5B5D29AAAC4A001B9DA3 /* LoginView.swift */; };
 		0E9898B929AA3A55007CE6C5 /* DreamzyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E9898B829AA3A55007CE6C5 /* DreamzyApp.swift */; };
-		0E9898BB29AA3A55007CE6C5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E9898BA29AA3A55007CE6C5 /* ContentView.swift */; };
+		0E9898BB29AA3A55007CE6C5 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E9898BA29AA3A55007CE6C5 /* WelcomeView.swift */; };
 		0E9898BD29AA3A57007CE6C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E9898BC29AA3A57007CE6C5 /* Assets.xcassets */; };
 		0E9898C029AA3A57007CE6C5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E9898BF29AA3A57007CE6C5 /* Preview Assets.xcassets */; };
 		0E9898CA29AA3A57007CE6C5 /* DreamzyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E9898C929AA3A57007CE6C5 /* DreamzyTests.swift */; };
@@ -36,9 +37,10 @@
 
 /* Begin PBXFileReference section */
 		0E3EA0EF29AA4E2700596C23 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		0E4A5B5D29AAAC4A001B9DA3 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		0E9898B529AA3A55007CE6C5 /* Dreamzy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dreamzy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E9898B829AA3A55007CE6C5 /* DreamzyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DreamzyApp.swift; sourceTree = "<group>"; };
-		0E9898BA29AA3A55007CE6C5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0E9898BA29AA3A55007CE6C5 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
 		0E9898BC29AA3A57007CE6C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0E9898BF29AA3A57007CE6C5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0E9898C529AA3A57007CE6C5 /* DreamzyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DreamzyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -76,6 +78,8 @@
 		0E3EA0F129AA528F00596C23 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				0EB6E50F29AAB56900DF705B /* WelcomeView */,
+				0E4A5B5C29AAAC32001B9DA3 /* LoginView */,
 				0E3EA0F229AA794F00596C23 /* SplashView */,
 			);
 			path = View;
@@ -87,6 +91,21 @@
 				0E3EA0EF29AA4E2700596C23 /* SplashView.swift */,
 			);
 			path = SplashView;
+			sourceTree = "<group>";
+		};
+		0E4A5B5C29AAAC32001B9DA3 /* LoginView */ = {
+			isa = PBXGroup;
+			children = (
+				0E4A5B5D29AAAC4A001B9DA3 /* LoginView.swift */,
+			);
+			path = LoginView;
+			sourceTree = "<group>";
+		};
+		0E4A5B5F29AAACCE001B9DA3 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 		0E9898AC29AA3A55007CE6C5 = {
@@ -112,9 +131,10 @@
 		0E9898B729AA3A55007CE6C5 /* Dreamzy */ = {
 			isa = PBXGroup;
 			children = (
+				0EB6E50529AAB3B500DF705B /* Coordinator */,
 				0E3EA0F129AA528F00596C23 /* View */,
+				0E4A5B5F29AAACCE001B9DA3 /* Extensions */,
 				0E9898B829AA3A55007CE6C5 /* DreamzyApp.swift */,
-				0E9898BA29AA3A55007CE6C5 /* ContentView.swift */,
 				0E9898BC29AA3A57007CE6C5 /* Assets.xcassets */,
 				0E9898BE29AA3A57007CE6C5 /* Preview Content */,
 			);
@@ -144,6 +164,21 @@
 				0E9898D529AA3A57007CE6C5 /* DreamzyUITestsLaunchTests.swift */,
 			);
 			path = DreamzyUITests;
+			sourceTree = "<group>";
+		};
+		0EB6E50529AAB3B500DF705B /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		0EB6E50F29AAB56900DF705B /* WelcomeView */ = {
+			isa = PBXGroup;
+			children = (
+				0E9898BA29AA3A55007CE6C5 /* WelcomeView.swift */,
+			);
+			path = WelcomeView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -276,8 +311,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0E9898BB29AA3A55007CE6C5 /* ContentView.swift in Sources */,
+				0E9898BB29AA3A55007CE6C5 /* WelcomeView.swift in Sources */,
 				0E9898B929AA3A55007CE6C5 /* DreamzyApp.swift in Sources */,
+				0E4A5B5E29AAAC4A001B9DA3 /* LoginView.swift in Sources */,
 				0E3EA0F029AA4E2800596C23 /* SplashView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
